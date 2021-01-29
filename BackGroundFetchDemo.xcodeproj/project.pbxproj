@@ -15,6 +15,8 @@
 		606A29D825C40B1300E7958E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606A29D625C40B1300E7958E /* LaunchScreen.storyboard */; };
 		606A29E325C40B1300E7958E /* BackGroundFetchDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A29E225C40B1300E7958E /* BackGroundFetchDemoTests.swift */; };
 		606A29EE25C40B1300E7958E /* BackGroundFetchDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A29ED25C40B1300E7958E /* BackGroundFetchDemoUITests.swift */; };
+		606A2A0325C4222500E7958E /* CustumServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A2A0225C4222500E7958E /* CustumServise.swift */; };
+		606A2A0925C42FCB00E7958E /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 606A2A0725C42FCB00E7958E /* TestModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		606A29E925C40B1300E7958E /* BackGroundFetchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackGroundFetchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		606A29ED25C40B1300E7958E /* BackGroundFetchDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundFetchDemoUITests.swift; sourceTree = "<group>"; };
 		606A29EF25C40B1300E7958E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606A2A0225C4222500E7958E /* CustumServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustumServise.swift; sourceTree = "<group>"; };
+		606A2A0825C42FCB00E7958E /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				606A29CB25C40B1100E7958E /* AppDelegate.swift */,
 				606A29CD25C40B1100E7958E /* SceneDelegate.swift */,
 				606A29CF25C40B1100E7958E /* ContentView.swift */,
+				606A2A0225C4222500E7958E /* CustumServise.swift */,
 				606A29D125C40B1300E7958E /* Assets.xcassets */,
 				606A29D625C40B1300E7958E /* LaunchScreen.storyboard */,
 				606A29D925C40B1300E7958E /* Info.plist */,
 				606A29D325C40B1300E7958E /* Preview Content */,
+				606A2A0725C42FCB00E7958E /* TestModel.xcdatamodeld */,
 			);
 			path = BackGroundFetchDemo;
 			sourceTree = "<group>";
@@ -266,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606A2A0325C4222500E7958E /* CustumServise.swift in Sources */,
+				606A2A0925C42FCB00E7958E /* TestModel.xcdatamodeld in Sources */,
 				606A29CC25C40B1100E7958E /* AppDelegate.swift in Sources */,
 				606A29CE25C40B1100E7958E /* SceneDelegate.swift in Sources */,
 				606A29D025C40B1100E7958E /* ContentView.swift in Sources */,
@@ -597,6 +605,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		606A2A0725C42FCB00E7958E /* TestModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				606A2A0825C42FCB00E7958E /* TestModel.xcdatamodel */,
+			);
+			currentVersion = 606A2A0825C42FCB00E7958E /* TestModel.xcdatamodel */;
+			path = TestModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 606A29C025C40B1100E7958E /* Project object */;
 }
